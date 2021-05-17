@@ -55,11 +55,11 @@ Serial.print(Temperatur);
 Serial.println("°C");
 delay(500);
 
-//Ist die Temperatur bei 27° (oder drunter), leuchtet LED grün
-//Ist die Temperatur bei 28° (oder darüber), leuchtet LED rot
-//Ist die Temperatur dazwischen, leuchtet LED cyan
-float min = 26.0;
-float max = 27.3;
+//Ist die Temperatur bei 24° (oder drunter), leuchtet LED grün
+//Ist die Temperatur bei 25° (oder darüber), leuchtet LED rot
+//Ist die Temperatur dazwischen, leuchtet LED gelb
+float min = 24.0;
+float max = 25.0;
 
 if (Temperatur <= min) {
   RGB_color(0, 255, 0);
