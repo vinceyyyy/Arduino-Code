@@ -37,7 +37,7 @@ float Luftfeuchtigkeit = dht.readHumidity();
 float Temperatur = dht.readTemperature();
 
 //Werte der Luftfeuchtigkeit (0 bis 100%) werden für Servostellung gemappt (0 bis 180°)
-servostellung = map(Luftfeuchtigkeit, 0, 100, 0, 179);
+servostellung = map(Luftfeuchtigkeit, 0, 100, 0, 180);
 
 //Proportional zum Wert der Luftfeuchtigkeit dreht sich der Servo bis zu 180 Grad 
 //und gibt die Werte im seriellen Monitor an.
