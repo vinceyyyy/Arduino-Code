@@ -58,8 +58,8 @@ delay(500);
 //Ist die Temperatur bei 27° (oder drunter), leuchtet LED grün
 //Ist die Temperatur bei 28° (oder darüber), leuchtet LED rot
 //Ist die Temperatur dazwischen, leuchtet LED cyan
-float min = 27.0;
-float max = 27.8;
+float min = 26.0;
+float max = 27.3;
 
 if (Temperatur <= min) {
   RGB_color(0, 255, 0);
